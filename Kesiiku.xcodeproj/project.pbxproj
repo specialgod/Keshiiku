@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491F966C1E65655400C50A59 /* bomb2-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 491F966B1E65655400C50A59 /* bomb2-5.mp3 */; };
+		491F966E1E656A5D00C50A59 /* sparkeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 491F966D1E656A5D00C50A59 /* sparkeParticle.sks */; };
+		491F96701E6577CE00C50A59 /* GaugeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F966F1E6577CE00C50A59 /* GaugeNode.swift */; };
+		492EAE5C1DE43BD500FE9BB3 /* trumpet1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 492EAE5B1DE43BD500FE9BB3 /* trumpet1.mp3 */; };
+		492EAE601DE4434700FE9BB3 /* guutara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 492EAE5F1DE4434700FE9BB3 /* guutara.mp3 */; };
+		492EAE621DE444F200FE9BB3 /* Forgotten-Place.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 492EAE611DE444F200FE9BB3 /* Forgotten-Place.mp3 */; };
+		492EAE641DE447B900FE9BB3 /* tamago-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 492EAE631DE447B900FE9BB3 /* tamago-4.png */; };
+		492EAE661DE449F100FE9BB3 /* tamago5.png in Resources */ = {isa = PBXBuildFile; fileRef = 492EAE651DE449F100FE9BB3 /* tamago5.png */; };
+		4946F3901ECA480E007CE01A /* ButurisentouScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946F38F1ECA480E007CE01A /* ButurisentouScene.swift */; };
+		4946F3921ECA5071007CE01A /* ButurisentouScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4946F3911ECA5071007CE01A /* ButurisentouScene.sks */; };
+		494C467C1DF6B0090082FEE9 /* RoomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C467B1DF6B0090082FEE9 /* RoomScene.swift */; };
+		494C467E1DFFE5380082FEE9 /* RoomSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494C467D1DFFE5380082FEE9 /* RoomSelectView.xib */; };
+		494C46801DFFEB540082FEE9 /* RoomSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C467F1DFFEB540082FEE9 /* RoomSelectView.swift */; };
+		495AC3231E5C329500C05E19 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 495AC3221E5C329500C05E19 /* FireParticle.sks */; };
+		495AC3251E5C330E00C05E19 /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 495AC3241E5C330E00C05E19 /* SparkParticle.sks */; };
+		49A012F11E9CCD3B00AA6080 /* GatyaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A012F01E9CCD3B00AA6080 /* GatyaScene.swift */; };
+		49AEEABD1EB7CED30069A0EC /* KeihinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEEABC1EB7CED30069A0EC /* KeihinScene.swift */; };
+		49AEEAC91EB7D75C0069A0EC /* KeihinParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49AEEAC81EB7D75C0069A0EC /* KeihinParticle.sks */; };
+		49C2E3DD1E37466F007790EB /* DanmakuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2E3DC1E37466F007790EB /* DanmakuScene.swift */; };
+		49C2E3E11E374C66007790EB /* DanmakuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49C2E3E01E374C66007790EB /* DanmakuScene.sks */; };
+		49F180161DC8849E00BDD0B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F180151DC8849E00BDD0B8 /* AppDelegate.swift */; };
+		49F180181DC8849F00BDD0B8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49F180171DC8849F00BDD0B8 /* GameScene.sks */; };
+		49F1801A1DC8849F00BDD0B8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49F180191DC8849F00BDD0B8 /* Actions.sks */; };
+		49F1801C1DC8849F00BDD0B8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1801B1DC8849F00BDD0B8 /* GameScene.swift */; };
+		49F1801E1DC8849F00BDD0B8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1801D1DC8849F00BDD0B8 /* GameViewController.swift */; };
+		49F180211DC8849F00BDD0B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F1801F1DC8849F00BDD0B8 /* Main.storyboard */; };
+		49F180231DC8849F00BDD0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F180221DC8849F00BDD0B8 /* Assets.xcassets */; };
+		49F180261DC8849F00BDD0B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F180241DC8849F00BDD0B8 /* LaunchScreen.storyboard */; };
+		49F180311DC8849F00BDD0B8 /* KesiikuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F180301DC8849F00BDD0B8 /* KesiikuTests.swift */; };
+		49F1803C1DC8849F00BDD0B8 /* KesiikuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1803B1DC8849F00BDD0B8 /* KesiikuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F1802D1DC8849F00BDD0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F1800A1DC8849D00BDD0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F180111DC8849E00BDD0B8;
+			remoteInfo = Kesiiku;
+		};
+		49F180381DC8849F00BDD0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F1800A1DC8849D00BDD0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F180111DC8849E00BDD0B8;
+			remoteInfo = Kesiiku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491F966B1E65655400C50A59 /* bomb2-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bomb2-5.mp3"; sourceTree = "<group>"; };
+		491F966D1E656A5D00C50A59 /* sparkeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparkeParticle.sks; sourceTree = "<group>"; };
+		491F966F1E6577CE00C50A59 /* GaugeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GaugeNode.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		492EAE5B1DE43BD500FE9BB3 /* trumpet1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet1.mp3; sourceTree = "<group>"; };
+		492EAE5F1DE4434700FE9BB3 /* guutara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guutara.mp3; sourceTree = "<group>"; };
+		492EAE611DE444F200FE9BB3 /* Forgotten-Place.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Forgotten-Place.mp3"; sourceTree = "<group>"; };
+		492EAE631DE447B900FE9BB3 /* tamago-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tamago-4.png"; sourceTree = "<group>"; };
+		492EAE651DE449F100FE9BB3 /* tamago5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamago5.png; sourceTree = "<group>"; };
+		4946F38F1ECA480E007CE01A /* ButurisentouScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButurisentouScene.swift; sourceTree = "<group>"; };
+		4946F3911ECA5071007CE01A /* ButurisentouScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ButurisentouScene.sks; sourceTree = "<group>"; };
+		494C467B1DF6B0090082FEE9 /* RoomScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomScene.swift; sourceTree = "<group>"; };
+		494C467D1DFFE5380082FEE9 /* RoomSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomSelectView.xib; sourceTree = "<group>"; };
+		494C467F1DFFEB540082FEE9 /* RoomSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSelectView.swift; sourceTree = "<group>"; };
+		495AC3221E5C329500C05E19 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		495AC3241E5C330E00C05E19 /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
+		49A012F01E9CCD3B00AA6080 /* GatyaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GatyaScene.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49AEEABC1EB7CED30069A0EC /* KeihinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = KeihinScene.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49AEEAC81EB7D75C0069A0EC /* KeihinParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KeihinParticle.sks; sourceTree = "<group>"; };
+		49C2E3DC1E37466F007790EB /* DanmakuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DanmakuScene.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49C2E3E01E374C66007790EB /* DanmakuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DanmakuScene.sks; sourceTree = "<group>"; };
+		49F180121DC8849E00BDD0B8 /* Kesiiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kesiiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F180151DC8849E00BDD0B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F180171DC8849F00BDD0B8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		49F180191DC8849F00BDD0B8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		49F1801B1DC8849F00BDD0B8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GameScene.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49F1801D1DC8849F00BDD0B8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GameViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49F180201DC8849F00BDD0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F180221DC8849F00BDD0B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F180251DC8849F00BDD0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F180271DC8849F00BDD0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F1802C1DC8849F00BDD0B8 /* KesiikuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KesiikuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F180301DC8849F00BDD0B8 /* KesiikuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesiikuTests.swift; sourceTree = "<group>"; };
+		49F180321DC8849F00BDD0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F180371DC8849F00BDD0B8 /* KesiikuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KesiikuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F1803B1DC8849F00BDD0B8 /* KesiikuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesiikuUITests.swift; sourceTree = "<group>"; };
+		49F1803D1DC8849F00BDD0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F1800F1DC8849E00BDD0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F180291DC8849F00BDD0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F180341DC8849F00BDD0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F180091DC8849D00BDD0B8 = {
+			isa = PBXGroup;
+			children = (
+				49F180141DC8849E00BDD0B8 /* Kesiiku */,
+				49F1802F1DC8849F00BDD0B8 /* KesiikuTests */,
+				49F1803A1DC8849F00BDD0B8 /* KesiikuUITests */,
+				49F180131DC8849E00BDD0B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F180131DC8849E00BDD0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F180121DC8849E00BDD0B8 /* Kesiiku.app */,
+				49F1802C1DC8849F00BDD0B8 /* KesiikuTests.xctest */,
+				49F180371DC8849F00BDD0B8 /* KesiikuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F180141DC8849E00BDD0B8 /* Kesiiku */ = {
+			isa = PBXGroup;
+			children = (
+				49F180151DC8849E00BDD0B8 /* AppDelegate.swift */,
+				49F180171DC8849F00BDD0B8 /* GameScene.sks */,
+				49C2E3E01E374C66007790EB /* DanmakuScene.sks */,
+				4946F3911ECA5071007CE01A /* ButurisentouScene.sks */,
+				49F180191DC8849F00BDD0B8 /* Actions.sks */,
+				49F1801B1DC8849F00BDD0B8 /* GameScene.swift */,
+				494C467B1DF6B0090082FEE9 /* RoomScene.swift */,
+				49A012F01E9CCD3B00AA6080 /* GatyaScene.swift */,
+				49C2E3DC1E37466F007790EB /* DanmakuScene.swift */,
+				49AEEABC1EB7CED30069A0EC /* KeihinScene.swift */,
+				49F1801D1DC8849F00BDD0B8 /* GameViewController.swift */,
+				4946F38F1ECA480E007CE01A /* ButurisentouScene.swift */,
+				49F1801F1DC8849F00BDD0B8 /* Main.storyboard */,
+				49F180221DC8849F00BDD0B8 /* Assets.xcassets */,
+				49F180241DC8849F00BDD0B8 /* LaunchScreen.storyboard */,
+				49F180271DC8849F00BDD0B8 /* Info.plist */,
+				492EAE5B1DE43BD500FE9BB3 /* trumpet1.mp3 */,
+				492EAE5F1DE4434700FE9BB3 /* guutara.mp3 */,
+				492EAE611DE444F200FE9BB3 /* Forgotten-Place.mp3 */,
+				491F966B1E65655400C50A59 /* bomb2-5.mp3 */,
+				492EAE651DE449F100FE9BB3 /* tamago5.png */,
+				492EAE631DE447B900FE9BB3 /* tamago-4.png */,
+				494C467D1DFFE5380082FEE9 /* RoomSelectView.xib */,
+				494C467F1DFFEB540082FEE9 /* RoomSelectView.swift */,
+				495AC3221E5C329500C05E19 /* FireParticle.sks */,
+				495AC3241E5C330E00C05E19 /* SparkParticle.sks */,
+				491F966D1E656A5D00C50A59 /* sparkeParticle.sks */,
+				491F966F1E6577CE00C50A59 /* GaugeNode.swift */,
+				49AEEAC81EB7D75C0069A0EC /* KeihinParticle.sks */,
+			);
+			path = Kesiiku;
+			sourceTree = "<group>";
+		};
+		49F1802F1DC8849F00BDD0B8 /* KesiikuTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F180301DC8849F00BDD0B8 /* KesiikuTests.swift */,
+				49F180321DC8849F00BDD0B8 /* Info.plist */,
+			);
+			path = KesiikuTests;
+			sourceTree = "<group>";
+		};
+		49F1803A1DC8849F00BDD0B8 /* KesiikuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F1803B1DC8849F00BDD0B8 /* KesiikuUITests.swift */,
+				49F1803D1DC8849F00BDD0B8 /* Info.plist */,
+			);
+			path = KesiikuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F180111DC8849E00BDD0B8 /* Kesiiku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F180401DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "Kesiiku" */;
+			buildPhases = (
+				49F1800E1DC8849E00BDD0B8 /* Sources */,
+				49F1800F1DC8849E00BDD0B8 /* Frameworks */,
+				49F180101DC8849E00BDD0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kesiiku;
+			productName = Kesiiku;
+			productReference = 49F180121DC8849E00BDD0B8 /* Kesiiku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F1802B1DC8849F00BDD0B8 /* KesiikuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F180431DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "KesiikuTests" */;
+			buildPhases = (
+				49F180281DC8849F00BDD0B8 /* Sources */,
+				49F180291DC8849F00BDD0B8 /* Frameworks */,
+				49F1802A1DC8849F00BDD0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F1802E1DC8849F00BDD0B8 /* PBXTargetDependency */,
+			);
+			name = KesiikuTests;
+			productName = KesiikuTests;
+			productReference = 49F1802C1DC8849F00BDD0B8 /* KesiikuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49F180361DC8849F00BDD0B8 /* KesiikuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F180461DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "KesiikuUITests" */;
+			buildPhases = (
+				49F180331DC8849F00BDD0B8 /* Sources */,
+				49F180341DC8849F00BDD0B8 /* Frameworks */,
+				49F180351DC8849F00BDD0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F180391DC8849F00BDD0B8 /* PBXTargetDependency */,
+			);
+			name = KesiikuUITests;
+			productName = KesiikuUITests;
+			productReference = 49F180371DC8849F00BDD0B8 /* KesiikuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F1800A1DC8849D00BDD0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mesuki;
+				TargetAttributes = {
+					49F180111DC8849E00BDD0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R2752T9BJ2;
+						ProvisioningStyle = Automatic;
+					};
+					49F1802B1DC8849F00BDD0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49F180111DC8849E00BDD0B8;
+					};
+					49F180361DC8849F00BDD0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49F180111DC8849E00BDD0B8;
+					};
+				};
+			};
+			buildConfigurationList = 49F1800D1DC8849D00BDD0B8 /* Build configuration list for PBXProject "Kesiiku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F180091DC8849D00BDD0B8;
+			productRefGroup = 49F180131DC8849E00BDD0B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F180111DC8849E00BDD0B8 /* Kesiiku */,
+				49F1802B1DC8849F00BDD0B8 /* KesiikuTests */,
+				49F180361DC8849F00BDD0B8 /* KesiikuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F180101DC8849E00BDD0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492EAE601DE4434700FE9BB3 /* guutara.mp3 in Resources */,
+				4946F3921ECA5071007CE01A /* ButurisentouScene.sks in Resources */,
+				492EAE5C1DE43BD500FE9BB3 /* trumpet1.mp3 in Resources */,
+				49F180211DC8849F00BDD0B8 /* Main.storyboard in Resources */,
+				49AEEAC91EB7D75C0069A0EC /* KeihinParticle.sks in Resources */,
+				492EAE621DE444F200FE9BB3 /* Forgotten-Place.mp3 in Resources */,
+				492EAE661DE449F100FE9BB3 /* tamago5.png in Resources */,
+				49F180181DC8849F00BDD0B8 /* GameScene.sks in Resources */,
+				49F180231DC8849F00BDD0B8 /* Assets.xcassets in Resources */,
+				495AC3251E5C330E00C05E19 /* SparkParticle.sks in Resources */,
+				492EAE641DE447B900FE9BB3 /* tamago-4.png in Resources */,
+				491F966C1E65655400C50A59 /* bomb2-5.mp3 in Resources */,
+				49C2E3E11E374C66007790EB /* DanmakuScene.sks in Resources */,
+				491F966E1E656A5D00C50A59 /* sparkeParticle.sks in Resources */,
+				49F180261DC8849F00BDD0B8 /* LaunchScreen.storyboard in Resources */,
+				494C467E1DFFE5380082FEE9 /* RoomSelectView.xib in Resources */,
+				495AC3231E5C329500C05E19 /* FireParticle.sks in Resources */,
+				49F1801A1DC8849F00BDD0B8 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F1802A1DC8849F00BDD0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F180351DC8849F00BDD0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F1800E1DC8849E00BDD0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1801C1DC8849F00BDD0B8 /* GameScene.swift in Sources */,
+				49AEEABD1EB7CED30069A0EC /* KeihinScene.swift in Sources */,
+				494C467C1DF6B0090082FEE9 /* RoomScene.swift in Sources */,
+				494C46801DFFEB540082FEE9 /* RoomSelectView.swift in Sources */,
+				49F1801E1DC8849F00BDD0B8 /* GameViewController.swift in Sources */,
+				4946F3901ECA480E007CE01A /* ButurisentouScene.swift in Sources */,
+				49C2E3DD1E37466F007790EB /* DanmakuScene.swift in Sources */,
+				49F180161DC8849E00BDD0B8 /* AppDelegate.swift in Sources */,
+				491F96701E6577CE00C50A59 /* GaugeNode.swift in Sources */,
+				49A012F11E9CCD3B00AA6080 /* GatyaScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F180281DC8849F00BDD0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F180311DC8849F00BDD0B8 /* KesiikuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F180331DC8849F00BDD0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1803C1DC8849F00BDD0B8 /* KesiikuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F1802E1DC8849F00BDD0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F180111DC8849E00BDD0B8 /* Kesiiku */;
+			targetProxy = 49F1802D1DC8849F00BDD0B8 /* PBXContainerItemProxy */;
+		};
+		49F180391DC8849F00BDD0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F180111DC8849E00BDD0B8 /* Kesiiku */;
+			targetProxy = 49F180381DC8849F00BDD0B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F1801F1DC8849F00BDD0B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F180201DC8849F00BDD0B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F180241DC8849F00BDD0B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F180251DC8849F00BDD0B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F1803E1DC8849F00BDD0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F1803F1DC8849F00BDD0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F180411DC8849F00BDD0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R2752T9BJ2;
+				INFOPLIST_FILE = Kesiiku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mesuki.Kesiiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49F180421DC8849F00BDD0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R2752T9BJ2;
+				INFOPLIST_FILE = Kesiiku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mesuki.Kesiiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49F180441DC8849F00BDD0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KesiikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.KesiikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kesiiku.app/Kesiiku";
+			};
+			name = Debug;
+		};
+		49F180451DC8849F00BDD0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KesiikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.KesiikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kesiiku.app/Kesiiku";
+			};
+			name = Release;
+		};
+		49F180471DC8849F00BDD0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KesiikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.KesiikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kesiiku;
+			};
+			name = Debug;
+		};
+		49F180481DC8849F00BDD0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KesiikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.KesiikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kesiiku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F1800D1DC8849D00BDD0B8 /* Build configuration list for PBXProject "Kesiiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F1803E1DC8849F00BDD0B8 /* Debug */,
+				49F1803F1DC8849F00BDD0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F180401DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "Kesiiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F180411DC8849F00BDD0B8 /* Debug */,
+				49F180421DC8849F00BDD0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F180431DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "KesiikuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F180441DC8849F00BDD0B8 /* Debug */,
+				49F180451DC8849F00BDD0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F180461DC8849F00BDD0B8 /* Build configuration list for PBXNativeTarget "KesiikuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F180471DC8849F00BDD0B8 /* Debug */,
+				49F180481DC8849F00BDD0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F1800A1DC8849D00BDD0B8 /* Project object */;
+}
